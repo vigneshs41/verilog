@@ -102,7 +102,7 @@ module tb_cordic;
             // Apply the angle
     
             
-            // Wait for 16 clock cycles to ensure the computation is complete
+            // Wait for min 16 clock cycles to ensure the computation is complete
             #230;
           // Display the results
             $display("Input Angle (hex): %h", angle);
